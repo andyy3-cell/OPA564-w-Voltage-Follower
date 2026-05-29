@@ -1283,24 +1283,6 @@
 		)
 	)
 	(junction
-		(at 55.88 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a7ed878-1b4f-4ad9-9097-531c8cae8e92")
-	)
-	(junction
-		(at 120.65 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bfc86c9-e0c1-4019-9f3e-22b332cdff71")
-	)
-	(junction
-		(at 55.88 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3058cd63-3615-4655-a2c7-593142747aca")
-	)
-	(junction
 		(at 120.65 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1319,34 +1301,52 @@
 		(uuid "6eaa67e2-6501-4e89-8231-c1234cd287e2")
 	)
 	(junction
+		(at 55.88 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7598b2ee-2bd2-49b4-9ab1-e4f82dc84a6e")
+	)
+	(junction
 		(at 43.18 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "74d74ceb-64cb-425f-86c1-cd489ebc5b7e")
+		(uuid "797c92eb-722c-4c49-b728-8556818e6709")
 	)
 	(junction
-		(at 43.18 62.23)
+		(at 55.88 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c20fd97-11fe-4b6e-bad8-e954354ad7a7")
-	)
-	(junction
-		(at 120.65 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af6873fa-03c7-4896-9f56-8e1666eafb03")
+		(uuid "7c102cb6-f1cd-491f-b749-5bdca76e1874")
 	)
 	(junction
 		(at 43.18 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd5ad79c-c209-4546-8f7c-ad9b1e718d95")
+		(uuid "88929507-e05f-4edc-a05a-3cfbac141e93")
 	)
 	(junction
-		(at 55.88 62.23)
+		(at 120.65 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fe098f55-7d4d-4d00-b1c0-89c92bfda63d")
+		(uuid "b9baf942-e7bd-4d31-ba43-638b4435aca6")
+	)
+	(junction
+		(at 120.65 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c9c8d2-6417-4e69-b53e-ab28f4b24bfa")
+	)
+	(junction
+		(at 43.18 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37fa650-5ab0-4c5b-82a6-b503d76a79ad")
+	)
+	(junction
+		(at 55.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f955e9c1-387c-4dc0-8ba4-a57fa45e1743")
 	)
 	(no_connect
 		(at 158.75 91.44)
@@ -1390,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 44.45) (xy 191.77 44.45)
+			(xy 120.65 44.45) (xy 204.47 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 44.45) (xy 191.77 68.58)
+			(xy 204.47 44.45) (xy 204.47 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1440,16 +1440,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 62.23) (xy 60.96 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fedcef4-a6f3-42fa-8d2f-a0d0d23d67cc")
-	)
-	(wire
-		(pts
 			(xy 43.18 62.23) (xy 55.88 62.23)
 		)
 		(stroke
@@ -1480,6 +1470,36 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 68.58) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417bd70b-44f2-40f7-b5ef-861570379b96")
+	)
+	(wire
+		(pts
+			(xy 55.88 45.72) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de8d14a-3989-4e5e-b19d-9ae916841c56")
+	)
+	(wire
+		(pts
+			(xy 31.75 62.23) (xy 43.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b911888-8162-4b85-a6fd-8ad64ef9a52b")
+	)
+	(wire
+		(pts
 			(xy 120.65 44.45) (xy 120.65 58.42)
 		)
 		(stroke
@@ -1500,23 +1520,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 30.48) (xy 60.96 30.48)
+			(xy 33.02 30.48) (xy 43.18 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fb1aa7f-9b87-4975-b00b-ef5fb738b9cd")
-	)
-	(wire
-		(pts
-			(xy 120.65 68.58) (xy 120.65 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71e99e66-bd4c-4883-8dfb-211473e4c338")
+		(uuid "742308f6-7d02-4d62-a357-00dbd9d8f698")
 	)
 	(wire
 		(pts
@@ -1550,6 +1560,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93143b34-12c9-4893-9ea1-9472044a605f")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 168.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18b8a64-2d50-4365-be1e-827cbce0a688")
+	)
+	(wire
+		(pts
 			(xy 105.41 109.22) (xy 105.41 129.54)
 		)
 		(stroke
@@ -1560,13 +1590,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 60.96 45.72)
+			(xy 33.02 45.72) (xy 43.18 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0593733-2c33-491d-a11d-be49230fe290")
+		(uuid "c5c0285b-9df3-4012-8cef-d0b471162393")
 	)
 	(wire
 		(pts
@@ -1580,7 +1610,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 68.58) (xy 176.53 68.58)
+			(xy 176.53 66.04) (xy 189.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d976502d-6d4d-40ee-b2dc-649a574a3b5f")
+	)
+	(wire
+		(pts
+			(xy 204.47 68.58) (xy 176.53 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1607,6 +1647,26 @@
 			(type default)
 		)
 		(uuid "f1da1830-e8c8-4aaa-ad00-90a27f229762")
+	)
+	(wire
+		(pts
+			(xy 156.21 139.7) (xy 186.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc273b33-391e-42f9-8ed2-05a54955fed1")
+	)
+	(wire
+		(pts
+			(xy 55.88 62.23) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc460ef-abc4-408f-ac18-a7f9e795cfc5")
 	)
 	(global_label "Signal Output"
 		(shape input)
@@ -1682,7 +1742,7 @@
 	)
 	(global_label "-12 Volts"
 		(shape input)
-		(at 60.96 62.23 0)
+		(at 72.39 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1692,7 +1752,7 @@
 		)
 		(uuid "229273df-7fa4-4fbc-8fee-a72c1408d8e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5608 62.23 0)
+			(at 84.9908 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1754,7 +1814,7 @@
 	)
 	(global_label "Signal Input"
 		(shape input)
-		(at 176.53 66.04 0)
+		(at 189.23 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1764,7 +1824,31 @@
 		)
 		(uuid "3c391b6f-306f-4376-8e83-2d1e4ed60f5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.1868 66.04 0)
+			(at 203.8868 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "-12 Volts"
+		(shape input)
+		(at 186.69 132.08 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cd4ee13-b096-4a90-ad13-0fbfb9ad7aef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 119.4792 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1934,7 @@
 	)
 	(global_label "-8 Volts"
 		(shape input)
-		(at 60.96 30.48 0)
+		(at 73.66 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,7 +1944,7 @@
 		)
 		(uuid "43e4d018-8bdf-48c5-92f3-329745531c50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3513 30.48 0)
+			(at 85.0513 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +2150,7 @@
 	)
 	(global_label "+12 Volts"
 		(shape input)
-		(at 60.96 45.72 0)
+		(at 72.39 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2076,7 +2160,7 @@
 		)
 		(uuid "957634c7-6347-4d8e-a3c5-dbc81b080bbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5608 45.72 0)
+			(at 84.9908 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2342,7 @@
 	)
 	(global_label "-8 Volts"
 		(shape input)
-		(at 156.21 134.62 0)
+		(at 168.91 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2268,7 +2352,7 @@
 		)
 		(uuid "e9e37f49-213c-4f3a-bc8f-f57220b66c18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6013 134.62 0)
+			(at 180.3013 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,7 +3172,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 43.18 30.48 90)
+		(at 33.02 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3096,10 +3180,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "499d2fe8-2bc2-47cd-b4a3-f5fa942074eb")
 		(property "Reference" "#PWR012"
-			(at 46.99 30.48 0)
+			(at 36.83 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3109,19 +3192,18 @@
 				)
 			)
 		)
-		(property "Value" "-8V"
-			(at 39.37 30.4799 90)
+		(property "Value" "-8 Volts"
+			(at 25.4 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 30.48 0)
+			(at 33.02 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 30.48 0)
+			(at 33.02 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 43.18 30.48 0)
+			(at 33.02 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,6 +3398,88 @@
 			(project "OPA564 Voltage Follower"
 				(path "/90716d48-356e-42a2-8b8c-ba4c48f90cc8"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 186.69 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68d4bdeb-496c-4bfa-9542-0bb46a4030df")
+		(property "Reference" "R9"
+			(at 189.23 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "14.2 kOhms"
+			(at 189.23 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.706 136.144 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 186.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6bcf44a7-e68e-423b-8e53-7e87ae185289")
+		)
+		(pin "1"
+			(uuid "07955d89-6810-4aa0-8d2f-36cfb47e1498")
+		)
+		(instances
+			(project "OPA564 Voltage Follower"
+				(path "/90716d48-356e-42a2-8b8c-ba4c48f90cc8"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4163,7 +4327,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 43.18 62.23 90)
+		(at 31.75 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4171,10 +4335,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdf93bd0-de04-4a92-92d2-000f435ba453")
 		(property "Reference" "#PWR06"
-			(at 46.99 62.23 0)
+			(at 35.56 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4184,19 +4347,18 @@
 				)
 			)
 		)
-		(property "Value" "-12V"
-			(at 39.37 62.2299 90)
+		(property "Value" "-12 Volts"
+			(at 22.86 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4218,7 +4380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 43.18 62.23 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,7 +4568,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 43.18 45.72 90)
+		(at 33.02 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4414,10 +4576,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb8c0e97-98be-4cda-b9bd-57d67e6bbfdd")
 		(property "Reference" "#PWR09"
-			(at 46.99 45.72 0)
+			(at 36.83 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,19 +4588,18 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 39.37 45.7199 90)
+		(property "Value" "+12 Volts"
+			(at 24.13 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 45.72 0)
+			(at 33.02 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 45.72 0)
+			(at 33.02 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +4621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 43.18 45.72 0)
+			(at 33.02 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

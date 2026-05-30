@@ -93,8 +93,8 @@
 		(at 172.5 64 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
-		(property "Reference" "REF**"
-			(at 0 -1.43 0)
+		(property "Reference" "R0"
+			(at -0.5 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "54ab33aa-1542-4cde-9528-8ad4a72a0b31")
 			(effects
@@ -105,7 +105,7 @@
 			)
 		)
 		(property "Value" "0 Ohm"
-			(at 0 1.43 0)
+			(at -4.5 -1.5 0)
 			(layer "F.Fab")
 			(uuid "c4f68d40-e5b4-475a-b14e-8009ac55c78d")
 			(effects
@@ -1011,7 +1011,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.65 90)
+			(at -3 0 180)
 			(layer "F.SilkS")
 			(uuid "be2101d0-4ddb-451f-89d3-3f4c149c873d")
 			(effects
@@ -2745,8 +2745,8 @@
 		(at 165 61.9125 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
-		(property "Reference" "REF**"
-			(at 0 -1.43 90)
+		(property "Reference" "R0"
+			(at -3.0875 0 90)
 			(layer "F.SilkS")
 			(uuid "b218816c-1bc8-465c-b152-f1e2b3497f36")
 			(effects
@@ -3012,7 +3012,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.65 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "a115f95b-6c02-43a1-99fc-ff1f70ec46e6")
 			(effects
@@ -3170,7 +3170,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 -1.65 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "debc49ea-f497-4181-a0d2-40789e2b8ba8")
 			(effects
@@ -3327,8 +3327,8 @@
 		(at 162.5 50 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
-		(property "Reference" "REF**"
-			(at 0 -1.43 90)
+		(property "Reference" "R0"
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "4bed8058-d01f-4829-a1d3-be2617f169a3")
 			(effects
@@ -5281,6 +5281,29 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 132.5 45)
+		(end 202.5 90)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d0901965-3793-441e-9d4c-f842e28a40f2")
+	)
+	(gr_text "Function Amplifier w/ Voltage Follower\nAndy Yang\n"
+		(at 134 88.5 0)
+		(layer "Edge.Cuts")
+		(uuid "f234e42d-2478-42a4-8d74-6a5500fdbc5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 159.269 61.5)
 		(end 159.199 61.43)
@@ -5362,14 +5385,6 @@
 		(uuid "326030d6-b14e-4961-a481-60efcc9d0d0d")
 	)
 	(segment
-		(start 161.5 62.5)
-		(end 162 62.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "-12 Volts")
-		(uuid "43413d33-01e9-44d3-a9bc-3ce72dc5ef23")
-	)
-	(segment
 		(start 159.199 61.43)
 		(end 160.43 61.43)
 		(width 0.2)
@@ -5402,20 +5417,20 @@
 		(uuid "5966c1d8-ce71-46a4-b0df-a0bcd91b884e")
 	)
 	(segment
+		(start 161.5 62.5)
+		(end 161.9625 62.0375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "-12 Volts")
+		(uuid "5b9fd445-da22-40b3-9eb0-c5e509ff84e5")
+	)
+	(segment
 		(start 177.5 61.77)
 		(end 177.77 61.77)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "-12 Volts")
 		(uuid "60439c4a-88b5-4883-b178-818d0e444192")
-	)
-	(segment
-		(start 162.73 61.77)
-		(end 168.102 61.77)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "-12 Volts")
-		(uuid "66e64d6f-3ab9-43e8-af40-214633ccc292")
 	)
 	(segment
 		(start 168.102 61.77)
@@ -5448,6 +5463,14 @@
 		(layer "F.Cu")
 		(net "-12 Volts")
 		(uuid "796c3f5e-0519-4cd4-8b1a-0a67e90496e1")
+	)
+	(segment
+		(start 161.9625 62.0375)
+		(end 166.5025 62.0375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "-12 Volts")
+		(uuid "85f36c94-9174-4960-bc90-d310a756e7be")
 	)
 	(segment
 		(start 152 50.5)
@@ -5586,14 +5609,6 @@
 		(uuid "d5a58393-9ec4-4ab2-94a1-7d874541f505")
 	)
 	(segment
-		(start 162 62.5)
-		(end 162.73 61.77)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "-12 Volts")
-		(uuid "db103154-4102-4940-82c6-9959ca996eca")
-	)
-	(segment
 		(start 166.5 59.5)
 		(end 166.77 59.23)
 		(width 0.2)
@@ -5624,6 +5639,14 @@
 		(layer "F.Cu")
 		(net "-12 Volts")
 		(uuid "e7db28b6-13c6-447d-a95b-0abf0656e412")
+	)
+	(segment
+		(start 166.5025 62.0375)
+		(end 166.77 61.77)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "-12 Volts")
+		(uuid "edd1f296-658a-428a-a81b-089199025acd")
 	)
 	(segment
 		(start 170 51)
@@ -6386,20 +6409,28 @@
 		(uuid "57e82e7d-6105-4822-928d-b41f4cd3e7d7")
 	)
 	(segment
-		(start 180.5 49.9)
-		(end 180.5 50.5)
+		(start 179.8 50.5)
+		(end 179.5 50.2)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Signal Output")
-		(uuid "a5a510cb-0726-4add-a375-79c5053d6c6c")
+		(uuid "70f16b44-feb8-49de-8d3b-6198af7dae45")
 	)
 	(segment
-		(start 179.1 48.5)
-		(end 180.5 49.9)
+		(start 180.5 50.5)
+		(end 179.8 50.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Signal Output")
-		(uuid "b7999144-c91d-4b50-b153-911e68e2383d")
+		(uuid "8d5a38bb-ebd2-464e-b236-7d7eb5122e2a")
+	)
+	(segment
+		(start 179.5 49)
+		(end 179 48.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Signal Output")
+		(uuid "acb508f1-d3bb-408b-b69e-cd64ccd6bb0a")
 	)
 	(segment
 		(start 166 49.434315)
@@ -6427,7 +6458,7 @@
 	)
 	(segment
 		(start 166.934315 48.5)
-		(end 179.1 48.5)
+		(end 179 48.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Signal Output")
@@ -6440,6 +6471,14 @@
 		(layer "F.Cu")
 		(net "Signal Output")
 		(uuid "f0202c0f-8bad-4d9f-9f15-ad879bfb8f15")
+	)
+	(segment
+		(start 179.5 50.2)
+		(end 179.5 49)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Signal Output")
+		(uuid "fa4e873a-fb06-485d-8dff-acf573ce7793")
 	)
 	(segment
 		(start 175.5 56)
